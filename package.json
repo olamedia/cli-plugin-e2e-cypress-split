@@ -1,0 +1,33 @@
+{
+  "name": "@olamedia/cli-plugin-e2e-cypress-split",
+  "version": "4.5.4",
+  "description": "e2e-cypress plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olamedia/cli-plugin-e2e-cypress-split.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "e2e-cypress"
+  ],
+  "author": "Evan You",
+  "contributors": ["olamedia"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olamedia/cli-plugin-e2e-cypress-split/issues"
+  },
+  "homepage": "https://github.com/olamedia/cli-plugin-e2e-cypress-split",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.5.4",
+    "cypress": "^3.8.3",
+    "eslint-plugin-cypress": "^2.10.3"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
+  }
+}
