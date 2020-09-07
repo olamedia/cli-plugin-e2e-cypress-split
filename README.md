@@ -1,4 +1,4 @@
-# @olamedia/cli-plugin-e2e-cypress-split
+# @olamedia/vue-cli-plugin-e2e-cypress-split
 
 > This is the edition of [@vue/cli-plugin-e2e-cypress](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress) plugin with separate folder and command for cypress tests.
 > Also cypress package dependency upgraded to ^5.1.0
