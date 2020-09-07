@@ -1,6 +1,6 @@
 {
   "name": "@olamedia/vue-cli-plugin-e2e-cypress-split",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "e2e-cypress plugin for vue-cli, separate folder edition",
   "main": "index.js",
   "repository": {
