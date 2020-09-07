@@ -1,4 +1,7 @@
-# @vue/cli-plugin-e2e-cypress
+# @olamedia/cli-plugin-e2e-cypress-split
+
+> This is the edition of @vue/cli-plugin-e2e-cypress plugin with separate folder and command for cypress tests.
+> Also cypress package dependency upgraded to ^5.1.0
 
 > e2e-cypress plugin for vue-cli
 
@@ -8,7 +11,7 @@ Cypress offers a rich interactive interface for running E2E tests, but currently
 
 ## Injected Commands
 
-- **`vue-cli-service test:e2e`**
+- **`vue-cli-service test:e2e-cypress`**
 
   Run e2e tests with `cypress run`.
 
@@ -31,11 +34,11 @@ Cypress offers a rich interactive interface for running E2E tests, but currently
   - In `--headless` mode, [all Cypress CLI options for `cypress run` are also supported](https://docs.cypress.io/guides/guides/command-line.html#cypress-run).
 
   Examples :
-  - Run Cypress in headless mode for a specific file: `vue-cli-service test:e2e --headless --spec tests/e2e/specs/actions.spec.js`
+  - Run Cypress in headless mode for a specific file: `vue-cli-service test:e2e-cypress --headless --spec tests/e2e/specs/actions.spec.js`
 
 ## Configuration
 
-We've pre-configured Cypress to place most of the e2e testing related files under `<projectRoot>/tests/e2e`. You can also check out [how to configure Cypress via `cypress.json`](https://docs.cypress.io/guides/references/configuration.html#Options).
+We've pre-configured Cypress to place most of the e2e testing related files under `<projectRoot>/tests/e2e-cypress`. You can also check out [how to configure Cypress via `cypress.json`](https://docs.cypress.io/guides/references/configuration.html#Options).
 
 ## Environment Variables
 
@@ -44,5 +47,5 @@ Cypress doesn't load .env files for your test files the same way as `vue-cli` do
 ## Installing in an Already Created Project
 
 ``` sh
-vue add e2e-cypress
+vue add @olamedia/e2e-cypress-split
 ```
